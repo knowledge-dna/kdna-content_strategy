@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "version": "0.4",
+    "domain": "content_strategy",
+    "created": "2026-05-20",
+    "purpose": "Define terminology, common misunderstandings, and self-checks for content strategy judgment.",
+    "load_condition": "Always load with KDNA_Core.json before generating content ideas or evaluating topics."
+  },
+  "terminology": {
+    "standard_terms": [
+      {
+        "term": "topic worthiness",
+        "definition": "The four-dimensional evaluation of a content topic: specific audience, cognitive contrast, discussability, and low comprehension barrier."
+      },
+      {
+        "term": "cognitive contrast",
+        "definition": "The gap between what the reader assumes and what the content reveals — a counter-intuitive claim, hidden mechanism, reframe, or simplifying model."
+      },
+      {
+        "term": "discussability",
+        "definition": "Whether the content creates a reason to share or argue — does it give the reader a concept they want to pass on?"
+      },
+      {
+        "term": "comprehension barrier",
+        "definition": "The prior knowledge required to engage with the content. High barriers limit audience; low barriers expand it."
+      }
+    ],
+    "banned_terms": [
+      {
+        "term": "content calendar",
+        "why": "A calendar optimizes publishing frequency, not content worthiness. The agent should not suggest filling a calendar before ensuring topics pass the worthiness filter. Publishing bad content on schedule is worse than publishing good content irregularly.",
+        "replace_with": "first filter topics through worthiness criteria, then decide publishing rhythm based on topic readiness"
+      },
+      {
+        "term": "evergreen content",
+        "why": "It is a format label, not a worthiness signal. Many 'evergreen' topics are generic overviews that pass no worthiness criteria. The agent should evaluate the topic's cognitive contrast and specific audience, not its format category.",
+        "replace_with": "evaluate whether the topic has cognitive contrast and a specific audience — regardless of format category"
+      }
+    ]
+  },
+  "misunderstandings": [
+    {
+      "id": "misread_more_content_equals_better_strategy",
+      "wrong": "Publishing more content is always better than publishing less.",
+      "correct": "Volume without worthiness dilutes the signal. One piece of content that creates cognitive contrast for a specific audience is worth more than ten generic pieces. Publishing frequency should follow topic readiness, not a calendar.",
+      "key_distinction": "Content volume = output quantity. Content worthiness = output quality measured by audience match, cognitive contrast, discussability, and accessibility. These dimensions are independent.",
+      "why": "Agents default to suggesting more content, more topics, more formats. This creates busywork without strategic value. The agent should push for fewer, sharper topics rather than more, blander ones."
+    },
+    {
+      "id": "misread_popular_topic_equals_good_topic",
+      "wrong": "If a topic is popular or trending, it is worth writing about.",
+      "correct": "Popular topics have maximum competition. A piece on a popular topic must be dramatically better or different to be noticed. For most creators, a narrow topic with less competition and higher audience specificity will perform better than a broad popular topic.",
+      "key_distinction": "Topic popularity = how many people search for it. Topic opportunity = how many people will find YOUR piece given existing competition. High popularity + high competition = low opportunity.",
+      "why": "Agents suggest popular topics because they are visible in search data. But visibility to the writer means visibility to every other writer. The agent should flag when a popular topic has too much competition to be worth the investment."
+    }
+  ],
+  "self_check": [
+    "For each topic I recommended, can I name the specific person, situation, and problem — or is it 'anyone interested in X'?",
+    "Does each topic contain at least one element of cognitive contrast — something the reader would find surprising or thought-changing?",
+    "Would someone share this content or argue with it — or is it purely informational?",
+    "Did I avoid recommending topics based on popularity or trend without evaluating competition and specificity?",
+    "Did I filter topics (remove weak ones) rather than just generate (add more)?"
+  ]
+}
