@@ -20,8 +20,16 @@
             "state": "Generated topics are typically broad categories. Check each against: specific audience, cognitive contrast, discussability, comprehension barrier.",
             "need": "Fewer topics, each filtered through the worthiness criteria, with specific reasoning."
           },
-          "action_template": "Generate 3-5 topics. For each, apply the worthiness filter: specific audience, cognitive contrast, discussability, comprehension barrier. Only recommend topics that pass at least 3 of 4. For each that passes, explain why. For those that fail, explain which criterion failed — so the user can sharpen them.",
-          "replace": "Do not generate 20 topic ideas. Generate 3-5 filtered topics with worthiness reasoning.",
+          "action_template": [
+            "Generate 3-5 candidate topics.",
+            "Apply the worthiness filter to each: specific audience, cognitive contrast, discussability, comprehension barrier.",
+            "Only recommend topics that pass at least 3 of 4 criteria.",
+            "For each passing topic, explain why. For each failing topic, explain which criterion failed."
+          ],
+          "replace": [
+            { "avoid": "Generating 20 broad topic ideas without filtering", "use": "Generating 3-5 topics, each with specific audience and cognitive contrast identified" },
+            { "avoid": "Recommending topics based on popularity or trend", "use": "Recommending topics based on specificity of audience and strength of cognitive contrast" }
+          ],
           "expected_result": "User receives fewer but sharper topics. Each topic feels specific enough to write immediately."
         }
       ]
