@@ -11,19 +11,73 @@
       "id": "axiom_ideas_are_cheap_worthiness_is_rare",
       "one_sentence": "Generating 50 topic ideas is easy. Identifying which one is worth the time to write is the real skill.",
       "full_statement": "AI can generate unlimited topic ideas by combining keywords. But most generated topics fail the worthiness test: they have no specific audience, no cognitive contrast (nothing the reader would find surprising), no discussability (nobody would share or argue with it), and too high a comprehension barrier (requires too much prior knowledge to engage). The agent's value is not in generating more ideas but in filtering ideas against worthiness criteria.",
-      "why": "Agents default to quantity ('here are 20 topic ideas') because quantity feels productive. But quantity without filtering is decision avoidance. The agent must give fewer, better-filtered topics rather than more, unfiltered ones."
+      "why": "Agents default to quantity ('here are 20 topic ideas') because quantity feels productive. But quantity without filtering is decision avoidance. The agent must give fewer, better-filtered topics rather than more, unfiltered ones.",
+      "applies_when": [
+        "Brainstorming content calendars for a niche B2B product where only targeted use cases convert",
+        "Filtering AI-generated blog titles before assigning writing tasks to human authors",
+        "Selecting podcast episode concepts based on community debates and listener feedback",
+        "Prioritizing video script ideas for a creator with limited production budget"
+      ],
+      "does_not_apply_when": [
+        "Conducting rapid long-tail keyword mapping to identify search volume opportunities for SEO",
+        "Generating seed prompts or phrase variations for training or fine-tuning an AI model",
+        "Filling a low-stakes social media queue where high volume directly increases algorithmic visibility",
+        "Creating headline variants for A/B testing where statistical significance requires many options"
+      ],
+      "failure_risk": "The agent will output a long list of generic, low-impact topics that waste editorial resources and fail to engage readers.",
+      "confidence": "high",
+      "evidence_type": [
+        "practice_pattern",
+        "industry_consensus"
+      ]
     },
     {
       "id": "axiom_specific_audience_beats_broad_appeal",
       "one_sentence": "A topic written for 'a specific person in a specific situation with a specific problem' will outperform a topic written for 'people interested in X.'",
       "full_statement": "Broad topics compete with every other piece of content on the same subject. Specific topics compete with nothing — because only the writer who knows exactly who they are writing for can produce content that feels like it was written for one person. The test: can you name the specific person this is for? If the answer is 'anyone interested in...' the topic is too broad.",
-      "why": "Agents default to broad audience thinking because it feels safer and more professional. But broad content is invisible content. Specific content gets found, shared, and remembered."
+      "why": "Agents default to broad audience thinking because it feels safer and more professional. But broad content is invisible content. Specific content gets found, shared, and remembered.",
+      "applies_when": [
+        "Writing a troubleshooting guide for a specific software integration failure reported in a user community",
+        "Crafting a LinkedIn post aimed at senior engineering managers struggling with remote team retention",
+        "Developing a sales playbook for account executives targeting healthcare compliance officers",
+        "Creating a tutorial video for beginners using a specific niche photography technique"
+      ],
+      "does_not_apply_when": [
+        "Drafting a company-wide internal policy announcement that must reach all employees uniformly",
+        "Writing a press release distributed to broad media outlets for a major corporate product launch",
+        "Creating a brand awareness video campaign designed to appeal to a general demographic",
+        "Producing a foundational glossary page for an educational platform covering basic industry terms"
+      ],
+      "failure_risk": "The agent will produce vague, generic content that fails to resonate with any reader segment, resulting in low engagement and poor conversion.",
+      "confidence": "high",
+      "evidence_type": [
+        "case_observation",
+        "industry_consensus"
+      ]
     },
     {
       "id": "axiom_cognitive_contrast_drives_share",
       "one_sentence": "Content spreads when it creates cognitive contrast — a gap between what the reader currently believes and what the content reveals.",
       "full_statement": "People share content that makes them think 'I never thought of it that way' or 'I need to show this to someone.' This happens when the content challenges a common assumption, reveals a hidden mechanism, reframes a familiar problem, or provides a mental model that makes the complex simple. Content that confirms what the reader already knows may be useful but will not spread.",
-      "why": "Agents generate content that is accurate and informative but not surprising. Accuracy creates utility. Surprise creates spread. For a topic to be worth writing, it must have at least one element of genuine cognitive contrast."
+      "why": "Agents generate content that is accurate and informative but not surprising. Accuracy creates utility. Surprise creates spread. For a topic to be worth writing, it must have at least one element of genuine cognitive contrast.",
+      "applies_when": [
+        "Developing a viral social thread that challenges a widely accepted marketing best practice",
+        "Writing an industry op-ed that reframes a common operational problem as a strategic advantage",
+        "Creating a video essay that reveals a counterintuitive psychological bias behind consumer behavior",
+        "Drafting a newsletter article that connects two unrelated trends to form a new mental model"
+      ],
+      "does_not_apply_when": [
+        "Writing technical documentation or API reference guides where precision and stability are paramount",
+        "Drafting legal disclaimers, compliance statements, or regulatory filings",
+        "Creating routine internal status reports or quarterly business reviews focused on factual metrics",
+        "Producing customer support FAQs that directly answer straightforward how-to questions"
+      ],
+      "failure_risk": "The agent will generate dry, confirmatory content that reads like a textbook and gets ignored rather than shared.",
+      "confidence": "high",
+      "evidence_type": [
+        "research_finding",
+        "practice_pattern"
+      ]
     }
   ],
   "ontology": [

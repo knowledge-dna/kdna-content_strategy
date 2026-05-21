@@ -44,14 +44,48 @@
       "wrong": "Publishing more content is always better than publishing less.",
       "correct": "Volume without worthiness dilutes the signal. One piece of content that creates cognitive contrast for a specific audience is worth more than ten generic pieces. Publishing frequency should follow topic readiness, not a calendar.",
       "key_distinction": "Content volume = output quantity. Content worthiness = output quality measured by audience match, cognitive contrast, discussability, and accessibility. These dimensions are independent.",
-      "why": "Agents default to suggesting more content, more topics, more formats. This creates busywork without strategic value. The agent should push for fewer, sharper topics rather than more, blander ones."
+      "why": "Agents default to suggesting more content, more topics, more formats. This creates busywork without strategic value. The agent should push for fewer, sharper topics rather than more, blander ones.",
+      "applies_when": [
+        "Targeting a specialized B2B audience with long decision cycles and high research requirements",
+        "Building initial domain authority for a new brand without established backlinks or audience trust",
+        "Operating with a solo creator or small editorial team with limited production bandwidth"
+      ],
+      "does_not_apply_when": [
+        "Running paid ad campaigns that require frequent landing page variants for continuous A/B testing",
+        "Executing SEO strategies focused on mass-indexing low-competition long-tail keywords to capture early search visibility",
+        "Covering breaking news or time-sensitive industry events where timeliness strictly outweighs depth",
+        "Managing short-form social feeds on algorithms that explicitly reward high-frequency posting to maintain reach"
+      ],
+      "failure_risk": "The agent will generate a sparse content calendar that starves search algorithms, misses timely audience moments, and fails to build the topical breadth needed for early-stage growth.",
+      "confidence": "high",
+      "evidence_type": [
+        "practice_pattern",
+        "industry_consensus"
+      ]
     },
     {
       "id": "misread_popular_topic_equals_good_topic",
       "wrong": "If a topic is popular or trending, it is worth writing about.",
       "correct": "Popular topics have maximum competition. A piece on a popular topic must be dramatically better or different to be noticed. For most creators, a narrow topic with less competition and higher audience specificity will perform better than a broad popular topic.",
       "key_distinction": "Topic popularity = how many people search for it. Topic opportunity = how many people will find YOUR piece given existing competition. High popularity + high competition = low opportunity.",
-      "why": "Agents suggest popular topics because they are visible in search data. But visibility to the writer means visibility to every other writer. The agent should flag when a popular topic has too much competition to be worth the investment."
+      "why": "Agents suggest popular topics because they are visible in search data. But visibility to the writer means visibility to every other writer. The agent should flag when a popular topic has too much competition to be worth the investment.",
+      "applies_when": [
+        "Launching a new website with low domain authority that cannot outrank established publishers",
+        "Developing content for a highly specialized buyer persona with unique technical or niche requirements",
+        "Operating with constrained editorial resources where targeting high-difficulty keywords guarantees poor ROI"
+      ],
+      "does_not_apply_when": [
+        "Representing a recognized industry leader with strong domain authority and built-in distribution channels",
+        "Publishing original first-party data or unique research that fundamentally reframes a trending discussion",
+        "Pursuing brand awareness campaigns where broad reach and traffic volume are prioritized over conversion quality",
+        "Creating platform-native formats like interactive tools or viral short-form video that bypass traditional keyword competition"
+      ],
+      "failure_risk": "The agent will output a narrowly focused content plan that ignores high-intent commercial keywords, suppresses brand visibility, and misses opportunities to capture broad market awareness.",
+      "confidence": "high",
+      "evidence_type": [
+        "case_observation",
+        "research_finding"
+      ]
     }
   ],
   "self_check": [
