@@ -1,13 +1,14 @@
 {
-  "kdna_spec": "1.0-rc",
-  "name": "content_strategy",
-  "version": "0.1.0",
+  "kdna_spec": "1.0",
+  "name": "@aikdna/content_strategy",
+  "version": "0.7.0",
   "status": "experimental",
   "access": "open",
   "language": "en",
   "author": {
     "name": "KDNA Team",
-    "id": "kdna-team"
+    "id": "kdna-team",
+    "pubkey": "ed25519:43d22af8f0e189b6fd42bfaab710f52f4bc5f0ae3f5e04719a1a1d9ce9760fbe"
   },
   "license": {
     "type": "CC-BY-4.0"
@@ -21,5 +22,6 @@
   ],
   "description": "Content strategy judgment — evaluate whether a topic is worth writing based on specific audience, cognitive contrast, discussability, and comprehension barrier. Not topic generation.",
   "core_insight": "Ideas are cheap. Worthiness is rare. Filter topics by who they are for and what assumption they challenge.",
-  "file_count": 6
+  "file_count": 6,
+  "signature": "ed25519:ddf0cfa5767f830512c3cd4cd729c2f556e9947a1bc9ed9e1d3051725dc48c110c10fc6d6f1b943095c5fa66efcdbf5219eb0bc2e8007b4cd6d586576b51e907"
 }

@@ -10,6 +10,14 @@
 
 Ideas are cheap. Worthiness is rare. Filter topics by who they are for and what assumption they challenge.
 
+## Scope
+
+This KDNA helps agents evaluate whether a content topic is worth writing by checking audience specificity, cognitive contrast, discussability, and comprehension barrier.
+
+## Out of Scope
+
+This KDNA is not a content calendar, SEO keyword planner, social media scheduler, trend scraper, or bulk topic generator. It does not reward volume over topic quality.
+
 ## Install
 
 ```bash
