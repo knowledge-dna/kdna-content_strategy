@@ -1,5 +1,5 @@
 {
-  "kdna_spec": "0.4",
+  "kdna_spec": "1.0-rc",
   "name": "content_strategy",
   "version": "0.1.0",
   "status": "experimental",
@@ -21,6 +21,5 @@
   ],
   "description": "Content strategy judgment — evaluate whether a topic is worth writing based on specific audience, cognitive contrast, discussability, and comprehension barrier. Not topic generation.",
   "core_insight": "Ideas are cheap. Worthiness is rare. Filter topics by who they are for and what assumption they challenge.",
-  "file_count": 6,
-  "spec_version": "1.0-rc"
+  "file_count": 6
 }
