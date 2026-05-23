@@ -1,0 +1,1 @@
+{"locale":"zh-CN","base":"en","name":"@aikdna/content_strategy","display_name":"内容策略判断","summary":"评估选题价值——特定受众、认知差异、可讨论性和理解门槛。","intended_use":["选题价值评估","内容策略诊断","受众匹配分析"],"out_of_scope":["SEO优化","流量分析","广告投放策略"],"known_limitations":["未覆盖短视频和直播内容形式"],"quality_badge":"untested","review_status":"community","license":"CC-BY-4.0"}
