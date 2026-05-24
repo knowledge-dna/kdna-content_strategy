@@ -18,4 +18,4 @@
 - 流量分析
 - 广告投放策略
 
-详见英文原版：[README.md](https://github.com/knowledge-dna/kdna-content_strategy)
+详见英文原版：[README.md](https://github.com/aikdna/kdna-content_strategy)
