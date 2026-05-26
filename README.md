@@ -45,7 +45,7 @@ Ideas are cheap. Worthiness is rare. Filter topics by who they are for and what 
 
 ```bash
 kdna install @aikdna/content_strategy
-kdna validate .
+kdna dev validate .
 ```
 
 ## Files
